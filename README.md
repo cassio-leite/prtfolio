@@ -2,7 +2,7 @@
 
 Bem-vindo ao repositório do meu portfólio pessoal! Este projeto foi criado para mostrar minhas habilidades, projetos e experiências.
 
-<img src="./src/images/portfolio.gif" alt="Gif da tela inicial">
+<img src="./src/video/portfolio.gif" alt="Gif da tela inicial">
 
 ## 🚀 Estrutura do Projeto
 
