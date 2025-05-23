@@ -1,0 +1,22 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    overflow: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #313741;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #00d7bb;
+    border-radius: 4px;
+    border: 2px solid #313741;
+}

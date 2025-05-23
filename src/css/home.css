@@ -1,0 +1,99 @@
+/* hero */
+.home {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+    padding: 0 25%;
+    
+}
+
+.home .redes-sociais a{
+    font-size: 1.8rem;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin: 10px 4px 0;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.home .redes-sociais a i{
+    color: #ffffff;
+    line-height: 40px;
+}
+
+.home .redes-sociais i:hover {
+    color: var(--cor-primaria);
+    
+}
+
+.outer-shadow {
+    box-shadow: 3px 3px #07228f, -3px -3px 3px #022647;
+}
+
+.home-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    /* coloca o vídeo atrás do conteúdo */
+}
+
+.home video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* faz o vídeo cobrir toda a área */
+}
+
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 60rem;
+    gap: 0.5rem;
+}
+
+.home .home-content h1,
+.home .home-content h2,
+.home .home-content p {
+    overflow: hidden;
+    /* Esconde o texto que ainda não foi "digitado" */
+    border-right: solid #ffffff;
+    /* Simula o cursor */
+    white-space: nowrap;
+    width: 0;
+    animation: typing 3s steps(30) 1s forwards, blink 0.75s step-end infinite;
+}
+
+.home .home-content h1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 10rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+.home .home-content h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 6.4rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.home .home-content p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-top: 1rem;
+}

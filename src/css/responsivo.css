@@ -1,0 +1,131 @@
+@media (max-width: 1280px) {
+    .home {
+                display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 10%;
+        /* Ajuste o padding para telas pequenas */
+    }
+    .home h2{
+        display: flex;
+        flex-direction: column;
+        font-size: 6rem;
+        /* Ajuste o padding para telas pequenas */
+    }
+
+    .about {
+        height: 150rem;
+        padding: 1rem;
+    }
+
+    .about .container {
+        padding: 1rem;
+        flex-direction: column;
+        /* Empilhe as informações na tela pequena */
+    }
+
+    .about .informacoes {
+        min-width: 1rem;
+    }
+
+    .about .informacoes h2 {
+        font-size: 35px;
+        margin: 2rem 0px 0px 0;
+    }
+
+    .about .informacoes p {
+        margin: 2rem 0px 0px 0;
+    }
+
+    .about .informacoes .profile-menu {
+        margin: 2rem 40px 0px 0;
+    }
+
+    .about img {
+        margin: 2rem;
+        padding: 1rem;
+        width: 1rem;
+    }
+
+    .about .container .background-animation {
+        height: 60%;
+        width: 80%;
+        top: 5rem;
+        left: 3rem;
+    }
+
+    .portfolio-container {
+        margin-left: 8rem;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        /* Ajuste para telas pequenas */
+    }
+}
+
+@media (max-width: 768px) {
+    .timeline-container {
+        width: 1px;
+        /* Fina para dispositivos pequenos */
+        margin: 9px;
+    }
+
+    .timeline-item {
+        width: 100%;
+        margin: 1rem 0;
+        padding-left: 30px;
+        left: 0 !important;
+        /* Remove deslocamento lateral */
+        text-align: left;
+    }
+
+    .timeline-item:nth-child(odd),
+    .timeline-item:nth-child(even) {
+        left: 0;
+        /* Garante que todos estejam centralizados */
+    }
+
+    .timeline-icon {
+        left: -25px;
+    }
+
+    .timeline h2 {
+        font-size: 28px;
+    }
+
+    .timeline-content p,
+    .timeline-content span {
+        font-size: 13px;
+        margin: 2rem;
+        width: 30rem;
+    }
+
+    .portfolio-container {
+        margin-left: 0;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        /* Ajuste para telas pequenas */
+    }
+}
+
+@media (max-width: 576px) {
+        .home {
+        padding: 0 10px;
+        /* Ajuste o padding para telas pequenas */
+    }
+    
+    .about img {
+        margin: 4rem 0px 0px 0px;
+        max-width: 100%;
+    }
+
+    .about .informacoes .profile-menu {
+        margin: 2rem 5px 0px 0px;
+    }
+
+    .about .informacoes p {
+        margin: 10px 0px 0px 0;
+    }
+
+    .about .informacoes h2 {
+        font-size: 35px;
+        margin: 10px 0px 0px 0;
+    }
+}

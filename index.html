@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Portfólio de Cássio Leite - Desenvolvedor Web FrontEnd">
+    <meta name="author" content="Cássio Leite">
+
+    <link rel="shortcut icon" href="./src/images/favicon.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/variables.css">
+    <link rel="stylesheet" href="./src/css/globais.css">
+
+    <link rel="stylesheet" href="./src/css/menu.css">
+    <link rel="stylesheet" href="./src/css/home.css">
+    <link rel="stylesheet" href="./src/css/about.css">
+    <link rel="stylesheet" href="./src/css/interests.css">
+    <link rel="stylesheet" href="./src/css/timeline.css">
+    <link rel="stylesheet" href="./src/css/skills.css">
+    <link rel="stylesheet" href="./src/css/projects.css">
+    <link rel="stylesheet" href="./src/css/footer.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+    <link rel="stylesheet" href="./src/css/animations.css">
+    <title>Cássio Leite | Desenvolvedor Front-End</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header-box">
+                <a href="#">
+                    <h1 class="logo">CL</h1>
+                </a>
+
+            <nav>
+
+                <input type="checkbox" id="menu-hamburguer" />
+
+                <label for="menu-hamburguer" class="menu-toggle">
+                    <span class="hamburguer"></span>
+                </label>
+
+                <ul>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#interests">Interesses</a></li>
+                    <li><a href="#education">Educação</a></li>
+                    <li><a href="#professional-skills">Skills</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#contacts">Contato</a></li>
+                </ul>
+
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="home" data-aos="fade-up">
+            <div class="home-content">
+                <h1>Olá!</h1>
+                <h2>Sou <span class="bold">Cássio Leite</span></h2>
+                <p>Desenvolvedor Web FrontEnd</p>
+            </div>
+
+            <div class="redes-sociais" data-aos="fade-up">
+                <a href="mailto:cassiocarmo77@gmail.com" class="outer-shadow" title="Email">
+                <i class="fa fa-envelope" aria-label="Email"></i>
+            </a>
+            <a href="https://wa.me/5533999956105" class="outer-shadow" target="_blank" title="WhatsApp">
+                <i class="fa fa-whatsapp" aria-label="WhatsApp"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/cassio-leite/" class="outer-shadow" target="_blank" title="LinkedIn">
+                <i class="fa fa-linkedin" aria-label="linkedin"></i>
+            </a>
+            <a href="https://github.com/cassio-leite" class="outer-shadow" target="_blank" title="GitHub">
+                <i class="fa fa-github" aria-label="GitHub"></i>
+            </a>
+            </div>
+
+            <div class="home-video">
+                <video autoplay loop muted>
+                    <source src="./src/video/programe.mp4" type="video/mp4">
+                    Seu navegador não suporta vídeos HTML5.
+                </video>
+            </div>
+        </section>
+
+        <section class="about" id="about" aria-labelledby="titulo-sobre">
+            <div class="container">
+                <div class="image-wrapper" data-aos="zoom-in">
+                    <div class="background-animation"></div>
+                    <img src="./src/images/cassio-leite.jpg" alt="Foto de perfil">
+
+                    <div class="curriculo-btn">
+                        <a href="./src/documents/Currículo.pdf" download>
+                            <i class="fa-solid fa-download"></i><span>Download CV</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="informacoes" data-aos="fade-left">
+                    <h2 class="section-title" id="titulo-sobre">Sobre Mim</h2>
+                    <p>
+                        Olá, meu nome é Cássio Leite, sou um Desenvolvedor apaixonado por tecnologia que busca construir
+                        uma carreira profissional na área de desenvolvimento, estou sempre buscando aprender e me aprimorar para que possa ter boas habilidades para ajudar meus futuros colegas de trabalho e a empresa em que ingressar. Desde novo na época em que ainda fazia o
+                        fundamental tinha o sonho de poder trabalhar com programação, mas não sabia por onde começar,
+                        tive muitas dúvidas em qual área de tecnologia iniciar, até que depois de finalizar o Ensino
+                        Médio conheci o Desenvolvimento Web e acabei começando a estudar por essa área. Me apaixonei por
+                        JavaScript então resolvi me casar com essa linguagem, tem sido um relacionamento complicado no
+                        começo mas acredito que vou aprender bastante com JS. Gosto de filmes, animes, músicas, ler,
+                        praticar esporte, e o principal, meu delicioso café, afinal, o que seria de um dev sem seu
+                        combustível né😋? Enfim, esse sou eu!!😉.
+                    </p>
+
+                    <ul class="profile-menu">
+                        <li><span>Nome: </span>Cássio Leite</li>
+                        <li><span>Data de nascimento: </span>16 Dezembro 2001</li>
+                        <li><span>Endereço: </span>Manhuaçu, Minas Gerais</li>
+                        <li><span>Email: </span>cassiocarmo77@gmail.com</li>
+                        <li>
+                            <a href="https://wa.me/5533999956105" target="_blank" rel="noopener noreferrer">
+                                <button class="btn-whatsapp"><span>Fale comigo no WhatsApp</span></button>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="interests" id="interests" aria-labelledby="titulo-interesses">
+            <h2 class="section-title" id="titulo-interesses" data-aos="fade-up">Meus Interesses</h2>
+
+            <div class="interest-item">
+                <div class="icon-wrapper" data-aos="fade-up">
+                    <i class="fa-solid fa-futbol"></i>
+                    <span class="icon-label">Futebol</span>
+                </div>
+
+                <div class="icon-wrapper" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fa-solid fa-book"></i>
+                    <span class="icon-label">Ler</span>
+                </div>
+
+                <div class="icon-wrapper" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fa-solid fa-music"></i>
+                    <span class="icon-label">Música</span>
+                </div>
+
+                <div class="icon-wrapper" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fa-solid fa-mug-saucer"></i>
+                    <span class="icon-label">Café</span>
+                </div>
+
+                <div class="icon-wrapper" data-aos="fade-up" data-aos-delay="400">
+                    <i class="fa-solid fa-rocket"></i>
+                    <span class="icon-label">Viajar</span>
+                </div>
+
+                <div class="icon-wrapper" data-aos="fade-up" data-aos-delay="500">
+                    <i class="fa-solid fa-film"></i>
+                    <span class="icon-label">Filmes</span>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="timeline" id="education" aria-labelledby="titulo-educacao">
+            <h2 class="section-title" id="titulo-educacao">Educação</h2>
+
+            <div class="timeline-container">
+                <div class="timeline-item" data-aos="fade-right" data-aos-delay="0">
+                    <div class="timeline-icon">
+                        <i class="fa-solid fa-graduation-cap" style="color: #63E6BE;"></i>
+                    </div>
+
+                    <div class="timeline-content">
+                        <h3>Desenvolvimento Web - FrontEnd</h3>
+                        <span>Jan 2024 | <strong>DevQuest</strong></span>
+                        <p>Atualmente cursando Desenvolvimento Web FrontEnd pelo DevQuest, onde tenho adquirido
+                            habilidades
+                            práticas e conhecimentos sólidos em programação para uma carreira profissional.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-right" data-aos-delay="150">
+                    <div class="timeline-icon">
+                        <i class="fa-solid fa-graduation-cap" style="color: #63E6BE;"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Pacote Office</h3>
+                        <span>Nov 2023 - Out 2024 | <strong>Microlins</strong></span>
+                        <p>Durante o processo de aprendizado, adquiri habilidades em Microsoft Word: Criação e edição de
+                            documentos, formatação de texto, uso de tabelas e gráficos.
+                            Microsoft Excel: Manipulação de dados, criação de fórmulas, uso de gráficos e tabelas
+                            dinâmicas.
+                            Microsoft PowerPoint: Criação de apresentações, uso de transições e animações, formatação de
+                            slides.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-right" data-aos-delay="150">
+                    <div class="timeline-icon">
+                        <i class="fa-solid fa-graduation-cap" style="color: #63E6BE;"></i>
+                    </div>
+
+                    <div class="timeline-content">
+                        <h3>Informática</h3>
+                        <span>Nov 2023 - Out 2024 | <strong>Microlins</strong></span>
+                        <p>Durante o processo de aprendizado, adquiri habilidades em entender as funcionalidades do
+                            sistema operacional windows.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills-section" data-aos="fade-right" id="professional-skills" aria-labelledby="titulo-skills">
+            <h2 class="section-title" id="titulo-skills">Minhas SKILLS</h2>
+
+            <div class="skills-bars">
+                <div class="skill">
+                    <span>HTML 5</span>
+                    <div class="bar">
+                        <div class="fill" style="width: 70%">70%</div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>CSS</span>
+                    <div class="bar">
+                        <div class="fill" style="width: 50%">50%</div>
+                    </div>
+
+                </div>
+                <div class="skill">
+                    <span>JavaScript</span>
+                    <div class="bar">
+                        <div class="fill" style="width: 40%">40%</div>
+                    </div>
+
+                </div>
+                <div class="skill">
+                    <span>GitHub</span>
+                    <div class="bar">
+                        <div class="fill" style="width: 60%">60%</div>
+                    </div>
+
+                </div>
+                <div class="skill">
+                    <span>Git</span>
+                    <div class="bar">
+                        <div class="fill" style="width: 50%">50%</div>
+                    </div>
+
+                </div>
+                <div class="skill">
+                    <span>APIs</span>
+                    <div class="bar">
+                        <div class="fill" style="width: 30%">30%</div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="skills-cards">
+                <div class="card">
+                    <div class="card-number">01.</div>
+                    <h3>HTML 5</h3>
+                    <p>Tenho uma boa base de HTML que me permite criar boas estruturas que possa se adequar ao meu nível de conhecimento para lidar com projetos.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <div class="card-number">02.</div>
+                    <h3>CSS</h3>
+                    <p>Tenho uma boa base de CSS que me permita criar estilos para meus projetos. Entendo conceitos importantes como flex-box e grid, dentre outros, mesmo sendo difícil lidar com esses conceitos em alguns momentos.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-number">03.</div>
+                    <h3>JavaScript</h3>
+                    <p>Tenho uma boa base de JS. Já entendo bem conceitos como callbacks, promisses, async/await,
+                        consumo de APIs, destructuring, dentre outros conceitos.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects" id="projects" aria-labelledby="titulo-projetos">
+            <h2 class="section-title" id="titulo-projetos">Meus Projetos</h2>
+
+            <div class="portfolio-container">
+                <div class="portfolio-item" data-aos="zoom-in-up" data-aos-delay="0">
+                    <!-- Primeiro Projeto -->
+                    <img src="./src/images/projeto-fetch-github.png" alt="Projeto Github">
+                    <div class="portfolio-overlay">
+                        <a href="./src/images/projeto-fetch-github.png" data-lightbox="portfolio" class="icon-button">
+                            <i class="fas fa-search-plus"></i>
+                        </a>
+                        <a href="https://github.com/cassio-leite/projeto-fetch-github-api.git" target="_blank"
+                            class="icon-button">
+                            <i class="fas fa-link"></i>
+                        </a>
+                    </div>
+
+                    <div class="portfolio-info">
+                        <strong>Projeto-fetch-github-api</strong><br>
+                        Este projeto é uma aplicação web que permite buscar usuários do GitHub e exibir suas
+                        informações,
+                        como nome, bio e repositórios públicos.
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-aos="fade-up" data-aos-delay="100">
+                    <!-- Segundo Projeto -->
+                    <img src="./src/images/projeto-gerador-de-conselhos.png" alt="Gerador de Conselhos">
+                    <div class="portfolio-overlay">
+                        <a href="./src/images/projeto-gerador-de-conselhos.png" data-lightbox="portfolio"
+                            class="icon-button">
+                            <i class="fas fa-search-plus"></i>
+                        </a>
+                        <a href="https://github.com/cassio-leite/Gerador-de-conselhos.git" target="_blank"
+                            class="icon-button">
+                            <i class="fas fa-link"></i>
+                        </a>
+                    </div>
+
+                    <div class="portfolio-info">
+                        <strong>Gerador de Conselhos</strong><br>
+                        Um projeto simples e interativo que gera conselhos aleatórios consumindo a API pública Advice
+                        Slip API.
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-aos="flip-up" data-aos-delay="200">
+                    <!-- Terceiro Projeto -->
+                    <img src="./src/images/projeto-clima.png" alt="Projeto Clima">
+                    <div class="portfolio-overlay">
+                        <a href="./src/images/projeto-clima.png" data-lightbox="portfolio" class="icon-button">
+                            <i class="fas fa-search-plus"></i>
+                        </a>
+                        <a href="https://github.com/cassio-leite/Projeto-clima.git" target="_blank" class="icon-button">
+                            <i class="fas fa-link"></i>
+                        </a>
+                    </div>
+
+                    <div class="portfolio-info">
+                        <strong>Previsão do Tempo</strong><br>
+                        Projeto simples e funcional de uma aplicação web que exibe a previsão do tempo atual para
+                        qualquer cidade informada.
+                    </div>
+                </div>
+
+                <!-- Outros projetos escondidos inicialmente -->
+                <div class="portfolio-item hidden" data-aos="zoom-in-up" data-aos-delay="300">
+                    <img src="./src/images/projeto-formulario.png" alt="Projeto Formulário">
+                    <div class="portfolio-overlay">
+                        <a href="./src/images/projeto-formulario.png" data-lightbox="portfolio" class="icon-button">
+                            <i class="fas fa-search-plus"></i>
+                        </a>
+                        <a href="https://github.com/cassio-leite/f-o-r-m-u-l-a-r-i-o.git" target="_blank"
+                            class="icon-button">
+                            <i class="fas fa-link"></i>
+                        </a>
+                    </div>
+
+                    <div class="portfolio-info">
+                        <strong>Formulário com Validação</strong><br>
+                        Este projeto é um formulário de contato com validação de campos obrigatórios.
+                    </div>
+                </div>
+
+                <!-- Outros projetos ocultos -->
+                <div class="portfolio-item hidden" data-aos="fade-up" data-aos-delay="400">
+                    <img src="./src/images/projeto-livros-para-programadores.png"
+                        alt="Projeto Livros Para Programadores">
+                    <div class="portfolio-overlay">
+                        <a href="./src/images/projeto-livros-para-programadores.png" data-lightbox="portfolio"
+                            class="icon-button">
+                            <i class="fas fa-search-plus"></i>
+                        </a>
+                        <a href="https://github.com/cassio-leite/livros-para-desenvolvedores.git" target="_blank"
+                            class="icon-button">
+                            <i class="fas fa-link"></i>
+                        </a>
+                    </div>
+
+                    <div class="portfolio-info">
+                        <strong>Lista de Livros para Programadores</strong><br>
+                        Este projeto é um site interativo que apresenta uma lista de livros essenciais para
+                        programadores.
+                    </div>
+                </div>
+
+                <div class="portfolio-item hidden" data-aos="zoom-in-up" data-aos-delay="500">
+                    <img src="./src/images/projeto-clone-yu-gi-oh.png" alt="Projeto Clone Yu-Gi-Oh!">
+                    <div class="portfolio-overlay">
+                        <a href="./src/images/projeto-clone-yu-gi-oh.png" data-lightbox="portfolio" class="icon-button">
+                            <i class="fas fa-search-plus"></i>
+                        </a>
+                        <a href="https://github.com/cassio-leite/projeto-clone-yu-gi-oh.git" target="_blank"
+                            class="icon-button">
+                            <i class="fas fa-link"></i>
+                        </a>
+                    </div>
+                    
+                    <div class="portfolio-info">
+                        <strong>Clone Yu-Gi-Oh!</strong><br>
+                        Este projeto é uma reprodução visual inspirada no universo de Yu-Gi-Oh!.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Botão para carregar mais projetos -->
+            <button class="load-more" data-aos="fade-up">Carregar Mais</button>
+        </section>
+
+    </main>
+
+    <footer class="footer" data-aos="fade-up" id="contacts" aria-label="Rodapé com informações de contato">
+        <h2 class="section-title">Minhas Conexões</h2>
+
+        <div class="footer-links">
+            <a href="mailto:cassiocarmo77@gmail.com" title="Email">
+                <i class="fa fa-envelope" aria-label="Email"></i>
+            </a>
+            <a href="https://wa.me/5533999956105" target="_blank" title="WhatsApp">
+                <i class="fa fa-whatsapp" aria-label="WhatsApp"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/cassio-leite/" target="_blank" title="LinkedIn">
+                <i class="fa fa-linkedin" aria-label="linkedin"></i>
+            </a>
+            <a href="https://github.com/cassio-leite" target="_blank" title="GitHub">
+                <i class="fa fa-github" aria-label="GitHub"></i>
+            </a>
+        </div>
+        <hr>
+        <p>&copy; 2025 Cássio Leite. Todos os direitos reservados.</p>
+    </footer>
+
+
+    <script src="https://kit.fontawesome.com/0c48a73063.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
